@@ -33,7 +33,7 @@ function reducer(state, action) {
     default:      return state
   }
 
-  localStorage.setItem('diiary',JSON.stringify(nextState))
+  localStorage.setItem('diary',JSON.stringify(nextState))
 
   return nextState
 
